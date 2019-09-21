@@ -4,6 +4,7 @@
         scroll-target="#scroll-area-2"
         v-model="bottomNav"
         shift
+        dark
         hide-on-scroll
         absolute
         horizontal
