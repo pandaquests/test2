@@ -6,11 +6,10 @@
         shift
         hide-on-scroll
         absolute
-        horizontal
         style="margin-bottom: 5px;"
     >
       <v-btn>
-        <span>Video</span>
+        <span>Videos</span>
         <v-icon>mdi-television-play</v-icon>
       </v-btn>
 
@@ -25,7 +24,7 @@
       </v-btn>
 
       <v-btn>
-        <span>Image</span>
+        <span>Images</span>
         <v-icon>mdi-image</v-icon>
       </v-btn>
     </v-bottom-navigation>
@@ -35,6 +34,38 @@
         max-height="600"
     >
       <v-container style="height: auto;">
+        <div class="text-center">
+          <v-sheet
+              light
+              elevation="6"
+          >
+            Hello, world! My name is Thành. I'm software developer by day. And artist by night. On this page you can see some of my work.
+          </v-sheet>
+        </div>
+        <br/>
+        <v-card
+          class="mx-auto"
+          outlined="outlined"
+          elevation="elevation"
+          raised="raised"
+          width="100%"
+        >
+          <v-img
+              class="white--text"
+              height="200px"
+              src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+          >
+            <v-card-title class="align-end fill-height">I'm a title</v-card-title>
+          </v-img>
+          <v-card-text>I'm card text</v-card-text>
+          <v-card-actions>
+            <v-btn icon>
+              <v-icon>mdi-heart</v-icon>
+            </v-btn>
+            <v-btn text>Click</v-btn>
+            <v-btn outlined>Click</v-btn>
+          </v-card-actions>
+        </v-card>
         <v-card
             class="mx-auto"
             max-width="344"
